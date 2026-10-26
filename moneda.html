@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de divisas</title>
+    <link rel="stylesheet" href="css/moneda.css">
+    <script src="js/moneda.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Conversor mult divisas</h2>
+
+        <input
+            type="number"
+            id="montoinput"
+            placeholder="Cantidad en dólares"
+            min="0.01"
+            step="any"
+        >
+
+        <select id="divisaselect">
+            <option value="eur">euros (EUR)</option>
+            <option value="mxn">pesos mexichangos (MXN)</option>
+            <option value="jpy">Yenes japochangos (JPY)</option>
+        </select>
+
+        <button id="btnconvertir">calcuchangos converchangos</button>
+    </div>
+</body>
+</html>
